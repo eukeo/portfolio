@@ -1,13 +1,48 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  display: block;
+  margin: auto;
+  /* background-image: url("https://focusmagazine.co.nz/wp-content/uploads/2021/06/What-A-New-Idea-Looks-Like.gif"); */
+  background-image: url("https://blackgold.sa/wp-content/uploads/2018/02/website-background-images-tile-wallpaper-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(red, rgb(117, 0, 220));
+  clip-path: circle(30% at right 50%);
+  backdrop-filter: blur(5px);
+  z-index: -2;
+  animation: floating 5s ease-in-out infinite;
 }
+
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(80, 164, 255), rgb(93, 255, 75));
+  clip-path: circle(20% at 10% 10%);
+  z-index: -1;
+  animation: floating 3.5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, -25px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+
+
+
+

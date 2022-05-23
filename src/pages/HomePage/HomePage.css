@@ -1,0 +1,189 @@
+
+
+#container {
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 60%;
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.41);
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    box-shadow: 1px 8px 30px rgba(0, 0, 0, 0.5);
+    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
+}
+
+#name {
+    padding-top: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: 10;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+}
+
+#personal-links > a {
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+#personal-links > img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#about-header {
+    padding-top: 15px;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+}
+
+#about {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10; 
+}
+
+#contents {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+#contents > p {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contact {
+    background-color: rgb(79, 151, 203);
+    border-radius: 10px;
+    width: 70px;
+    height: 25px;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    margin-bottom: 55px;
+}
+
+#contents > img {
+    margin: auto;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: row;
+    width: 4vw;
+    padding-bottom: 35px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#personal-links > a:hover {
+    opacity: 50%;
+}
+
+#contact:hover {
+    background-color: rgb(63, 124, 167);
+}
+
+@media only screen and (max-width: 620px) {
+    #container, #contents {
+      width: 93%;
+      margin-bottom: 20px;
+    }
+  }
+
+@media only screen and (max-width: 620px) {
+    #contact {
+      width: 74px;
+      margin-bottom: 25px;
+    }
+  }
+
+@media only screen and (max-width: 620px) {
+    #contents > img {
+      width: 15%;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: -25px;
+    }
+  }
+
+/* 
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+#container #card {
+    position:relative;
+    width: 680px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(8px);
+}
+
+#container #card #content {
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+#profile-photo {
+    width: 20%;
+}
+
+#container #card #content h3 {
+    font-size: 1.8em;
+    color: white;
+    z-index: 1;
+}
+
+#container #card #content p {
+    font-size: 1em;
+    color: white;
+    font-weight: 300;
+} */
