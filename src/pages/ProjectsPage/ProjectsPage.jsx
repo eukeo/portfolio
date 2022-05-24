@@ -23,8 +23,8 @@ export default function ProjectsPage() {
                     <div id="small-container">
                         <img src="https://i.imgur.com/Mmy5vzf.jpeg" id="b-m"></img>
                         <h2 id="p-title">Bit-Man!</h2>
-                        <a href="" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg"></img></a>
-                        <a href="https://github.com/eukeo" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img></a>
+                        <a href="https://bit-man.herokuapp.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg"></img></a>
+                        <a href="https://github.com/eukeo/bit-man" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img></a>
                         <h5>Bit-Man! is a soft, retro take on Hangman. Inspired by old school, pixelated video games, Bit-Man! is something for all ages! Take a look at the hint provided and try your best to guess the word before your lives run out!</h5>
                     </div>
                 </div>
