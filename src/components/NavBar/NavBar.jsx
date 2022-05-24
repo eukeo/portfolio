@@ -4,10 +4,9 @@ import './NavBar.css'
 export default function NavBar(){
     return (
         <nav>
-            <ul>
-                <Link to="/">Home</Link>
-                <Link to="projects">Projects</Link>
-            </ul>
+            <Link to="/">Home</Link>
+            <Link to="projects">Projects</Link>
+            <Link to="contact">Contact</Link>
         </nav>
     )
 }

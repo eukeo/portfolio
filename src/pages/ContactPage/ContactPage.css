@@ -1,0 +1,47 @@
+#business-card-container {
+    display: block;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; */
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 20%;
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.41);
+    border-radius: 15px;
+    backdrop-filter: blur(4px);
+    box-shadow: 1px 8px 30px rgba(0, 0, 0, 0.5);
+    /* box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5); */
+    padding-bottom: 2%;
+}
+
+#avatar {
+    padding-top: 15%;
+    width: 40%;
+    margin: auto;
+}
+
+#info {
+    padding-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    font-size: 14px;
+}
+
+h4 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 10;
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 620px) {
+    #business-card-container {
+      width: 93%;
+      margin-bottom: 20px;
+      padding-bottom: 5%;
+    }
+  }
