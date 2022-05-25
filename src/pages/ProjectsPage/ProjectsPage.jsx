@@ -14,7 +14,7 @@ export default function ProjectsPage() {
                         <h5>Welcome to the Pokémon Universe! This web application not only contains the latest updates on the Pokéverse, it also has a splash of nostalgia that will make any die hard Pokémon fan remember what it was like to be a kid. From the Pokédex, to Memory Lane, there is something for every Pokémon fan to enjoy!</h5>
                     </div>
                     <div id="small-container">
-                        <img src="https://camo.githubusercontent.com/4e8e41b9b27bc99885d84a040bcbdd4529d3d1e34a1259688e0061524650b707/68747470733a2f2f692e696d6775722e636f6d2f4546627a436d312e706e67"></img>
+                        <img src="https://camo.githubusercontent.com/4e8e41b9b27bc99885d84a040bcbdd4529d3d1e34a1259688e0061524650b707/68747470733a2f2f692e696d6775722e636f6d2f4546627a436d312e706e67" id="castle"></img>
                         <h2 id="p-title">Castle</h2>
                         <a href="https://estates-castle.herokuapp.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain-wordmark.svg"></img></a>
                         <a href="https://github.com/RaulL10/estates" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img></a>
