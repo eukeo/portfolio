@@ -27,24 +27,8 @@
     font-weight: 10;
 }
 
-#personal-links > a {
-    width: 20px;
-    height: 20px;
-    display: inline-flex;
-    flex-direction: row;
-    margin: auto;
-    margin-right: 35px;
-    margin-left: 35px;
-}
-
-#personal-links > img {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 #about-header {
-    padding-top: 5px;
-    text-decoration: underline;
+    padding-top: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 10;
 }

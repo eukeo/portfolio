@@ -82,6 +82,7 @@ h5 {
 @media only screen and (max-width: 620px) {
    #projects-container, #projects-content {
      width: 93%;
+     margin-bottom: 25px;
    }
 }
 

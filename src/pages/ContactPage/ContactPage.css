@@ -24,6 +24,22 @@
     margin: auto;
 }
 
+#personal-links > a {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#personal-links > img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #info {
     padding-top: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -35,6 +51,21 @@ h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 10;
     font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.download-btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+.download-btn:hover {
+    background-color: rgb(42, 113, 183);
 }
 
 

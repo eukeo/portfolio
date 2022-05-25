@@ -7,6 +7,7 @@ import ProjectsPage from '../ProjectsPage/ProjectsPage';
 import NavBar from '../../components/NavBar/NavBar'
 import ContactPage from '../ContactPage/ContactPage';
 
+
 export default function App() {
   const location = useLocation();
   return (
