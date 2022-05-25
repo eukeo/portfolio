@@ -12,11 +12,15 @@ nav > a {
     border-radius: 15px;
     backdrop-filter: blur(4px);
     box-shadow: 1px 8px 30px rgba(0, 0, 0, 0.5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.2s ease-in-out;
 }
 
 
 nav > a:hover {
-    color: rgb(177, 92, 220);
+    background-color: rgb(232, 165, 255);
+    color: white;
+    backdrop-filter: blur(4px);
 }
 
 @media only screen and (max-width: 389px) {
