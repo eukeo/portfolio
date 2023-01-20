@@ -21,6 +21,7 @@ nav > a:hover {
   background-color: rgb(232, 165, 255);
   color: white;
   backdrop-filter: blur(4px);
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 389px) {
