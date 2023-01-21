@@ -8,7 +8,6 @@ export default function HomePage() {
   return (
     <AnimatedPage>
       <div id="container">
-        <button></button>
         <div id="contents">
           <h1 id="name">Gabriel Gomez</h1>
           <h3 id="title">Software Engineer</h3>
