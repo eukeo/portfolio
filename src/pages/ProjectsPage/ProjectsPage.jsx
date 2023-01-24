@@ -10,7 +10,10 @@ export default function ProjectsPage() {
             <img src="https://i.imgur.com/Mmy5vzf.jpeg" id="b-m"></img>
             <h2 id="p-title">Bit-Man!</h2>
             <a href="https://bitman-57eb0.web.app/" target="_blank">
-              <img src="https://cdn.iconscout.com/icon/free/png-256/firebase-3628772-3030134.png"></img>
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-256/firebase-3628772-3030134.png"
+                id="linkIcon"
+              ></img>
             </a>
             <a href="https://github.com/eukeo/bitman" target="_blank">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img>
@@ -30,7 +33,10 @@ export default function ProjectsPage() {
               href="https://mental-health-production.up.railway.app/"
               target="_blank"
             >
-              <img src="https://i.pinimg.com/originals/cf/58/4a/cf584aff36fb87c055a8a026bfcb859e.png"></img>
+              <img
+                src="https://i.pinimg.com/originals/cf/58/4a/cf584aff36fb87c055a8a026bfcb859e.png"
+                id="linkIcon"
+              ></img>
             </a>
             <a href="https://github.com/eukeo/mental-health" target="_blank">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img>
@@ -54,7 +60,10 @@ export default function ProjectsPage() {
               href="https://pokemon-tcg-production.up.railway.app/"
               target="_blank"
             >
-              <img src="https://i.pinimg.com/originals/cf/58/4a/cf584aff36fb87c055a8a026bfcb859e.png"></img>
+              <img
+                src="https://i.pinimg.com/originals/cf/58/4a/cf584aff36fb87c055a8a026bfcb859e.png"
+                id="linkIcon"
+              ></img>
             </a>
             <a href="https://github.com/eukeo/pokemon-tcg" target="_blank">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img>
