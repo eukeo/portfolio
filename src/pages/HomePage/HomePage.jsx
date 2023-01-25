@@ -31,6 +31,7 @@ export default function HomePage() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"></img>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></img>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"></img>
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"></img>
         </div>
       </div>
     </AnimatedPage>
