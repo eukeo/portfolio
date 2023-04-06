@@ -7,22 +7,19 @@ export default function ProjectsPage() {
       <div id="projects-container">
         <div id="projects-content">
           <div id="small-container">
-            <img src="https://i.imgur.com/Mmy5vzf.jpeg" id="b-m"></img>
-            <h2 id="p-title">Bit-Man!</h2>
-            <a href="https://bitman-57eb0.web.app/" target="_blank">
+            <img src="https://i.imgur.com/41pDTFh.jpg" id="b-m"></img>
+            <h2 id="p-title">What To Do?</h2>
+            <a href="https://todo-list-reboot-production.up.railway.app/" target="_blank">
               <img
-                src="https://cdn.iconscout.com/icon/free/png-256/firebase-3628772-3030134.png"
+                src="https://i.pinimg.com/originals/cf/58/4a/cf584aff36fb87c055a8a026bfcb859e.png"
                 id="linkIcon"
               ></img>
             </a>
-            <a href="https://github.com/eukeo/bitman" target="_blank">
+            <a href="https://github.com/eukeo/todo-list-reboot" target="_blank">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></img>
             </a>
             <h5>
-              Bit-Man! is a soft, retro take on Hangman. Inspired by old school,
-              pixelated video games, Bit-Man! is something for all ages! Take a
-              look at the hint provided and try your best to guess the word
-              before your lives run out!
+              What To Do? is a full CRUD, mobile friendly daily planner. Create, read, update and delete your daily plans as your day goes on right from the comfort of your phone! Screenshot your daily planner so you know exactly where you need to be at any time of the day!
             </h5>
           </div>
 
