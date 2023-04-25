@@ -13,7 +13,7 @@ export default function HomePage() {
           <h3 id="title">Software Engineer</h3>
           <h3 id="about-header">About Me</h3>
           <p id="about">
-            Welcome, my name is Gabriel Gomez and I am a 28-year-old Software
+            Welcome, my name is Gabriel Gomez and I am a 29-year-old Software
             Engineer living in Los Angeles, California. My passion for
             technology, specifically Front-End Development, was sparked at a
             young age through my interest and passion for art. After exploring
@@ -32,6 +32,7 @@ export default function HomePage() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"></img>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"></img>
           <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png"></img>
+          <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"></img>
         </div>
       </div>
     </AnimatedPage>
