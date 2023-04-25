@@ -1,8 +1,5 @@
 import AnimatedPage from "../../components/NavBar/AnimatedPage/AnimatedPage";
 import "./HomePage.css";
-// import { Aos } from 'aos'
-// import "aos/dist/aos.css"
-// import { useEffect } from 'react'
 
 export default function HomePage() {
   return (
@@ -24,7 +21,6 @@ export default function HomePage() {
             Development and my dedication to creating a seamless user
             experience.
           </p>
-          {/* <a href="" id="contact">Contact</a> */}
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"></img>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"></img>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"></img>
